@@ -1,0 +1,14 @@
+JUnit version 4.13
+.
+Scenario: Clients can deposit money into their saving account # BankAccount.feature:7
+entrando no Given com argumento: 100
+  Given a savings account with balance of 100                 # BankAccountStepDef.linha_do_given(int)
+entrando no When
+  When a client deposits 50                                   # BankAccountStepDef.linha_do_when(int)
+entrando no Then
+  Then the saving accounts balance should be 150              # BankAccountStepDef.the_saving_accounts_balance_should_be(int)
+
+Time: 0.302
+
+OK (1 test)
+

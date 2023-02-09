@@ -1,0 +1,21 @@
+{
+  "display_name": "Java, Cucumber",
+  "image_name": "cyberdojofoundation/java_cucumber_pico:b62386b",
+  "filename_extension": [
+    ".java",
+    ".feature"
+  ],
+  "max_seconds": 15,
+  "tab_size": 4,
+  "version": 2,
+  "created": [
+    2023,
+    2,
+    9,
+    18,
+    59,
+    7,
+    84976
+  ],
+  "id": "t4uYKg"
+}
